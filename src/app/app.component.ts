@@ -1,10 +1,10 @@
 import { ChangeDetectionStrategy, Component, computed, inject, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { User, Profile } from './app/core/models/survey.interface';
-import { SupabaseService } from './app/core/services/supabase.service';
-import { SurveyComponent } from './app/features/survey/survey.component';
-import { DashboardComponent } from './app/features/dashboard/dashboard.component';
+import { User, Profile } from './core/models/survey.interface';
+import { SupabaseService } from './core/services/supabase.service';
+import { SurveyComponent } from './features/survey/survey.component';
+import { DashboardComponent } from './features/dashboard/dashboard.component';
 
 const ADMIN_EMAIL = 'admin@siroe.cl';
 
